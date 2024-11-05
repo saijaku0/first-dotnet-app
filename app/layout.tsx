@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
+import { Layout, Menu } from "antd";
+import { Content, Footer, Header } from "antd/es/layout/layout";
+import Link from "next/link";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const items = [
+  {
+    key: "home",
+    label: <Link href={"/"}>Home</Link>,
+  },
+  {
+    key: "books",
+    label: <Link href={"/books"}>Books</Link>,
+  },
+];
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,8 +27,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <body>
+        <Layout style={{ minHeight: "100vh" }}>
+          <Header>
+            <Menu
+              theme="dark"
+              mode="horizontal"
+              items={items}
+              style={{ flex: 1, minWidth: 0 }}
+            />
+          </Header>
+          <Content style={{ padding: "0 48px" }}>{children}</Content>
+          <Footer style={{ textAlign: "center" }}>
+            Book Store 2024 Created by Vadym 
+          </Footer>
+        </Layout>
       </body>
     </html>
   );
