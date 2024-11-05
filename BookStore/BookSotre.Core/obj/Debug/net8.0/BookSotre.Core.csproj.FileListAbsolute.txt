@@ -1,0 +1,11 @@
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\bin\Debug\net8.0\BookSotre.Core.deps.json
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\bin\Debug\net8.0\BookSotre.Core.dll
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\bin\Debug\net8.0\BookSotre.Core.pdb
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\obj\Debug\net8.0\BookSotre.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\obj\Debug\net8.0\BookSotre.Core.AssemblyInfoInputs.cache
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\obj\Debug\net8.0\BookSotre.Core.AssemblyInfo.cs
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\obj\Debug\net8.0\BookSotre.Core.csproj.CoreCompileInputs.cache
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\obj\Debug\net8.0\BookSotre.Core.dll
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\obj\Debug\net8.0\refint\BookSotre.Core.dll
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\obj\Debug\net8.0\BookSotre.Core.pdb
+E:\FullStackProjects\BookStore\BookStore\BookSotre.Core\obj\Debug\net8.0\ref\BookSotre.Core.dll
