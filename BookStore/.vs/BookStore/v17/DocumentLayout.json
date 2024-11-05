@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\FullStackProjects\\BookStore\\BookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3924C6DB-C2FC-491D-B2C1-D24AA9348890}|BookStore.API\\BookStore.API.csproj|e:\\fullstackprojects\\bookstore\\bookstore\\bookstore.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3924C6DB-C2FC-491D-B2C1-D24AA9348890}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3924C6DB-C2FC-491D-B2C1-D24AA9348890}|BookStore.API\\BookStore.API.csproj|e:\\fullstackprojects\\bookstore\\bookstore\\bookstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3924C6DB-C2FC-491D-B2C1-D24AA9348890}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3924C6DB-C2FC-491D-B2C1-D24AA9348890}|BookStore.API\\BookStore.API.csproj|e:\\fullstackprojects\\bookstore\\bookstore\\bookstore.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3924C6DB-C2FC-491D-B2C1-D24AA9348890}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F4CB856-4A4B-40BD-A257-BAEA5F8658B9}|BookStore.Application\\BookStore.Application.csproj|e:\\fullstackprojects\\bookstore\\bookstore\\bookstore.application\\services\\booksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BooksController.cs",
               "DocumentMoniker": "E:\\FullStackProjects\\BookStore\\BookStore\\BookStore.API\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\BooksController.cs",
@@ -47,13 +47,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\FullStackProjects\\BookStore\\BookStore\\BookStore.API\\Program.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Program.cs",
               "ToolTip": "E:\\FullStackProjects\\BookStore\\BookStore\\BookStore.API\\Program.cs",
               "RelativeToolTip": "BookStore.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T08:53:33.875Z",
               "EditorCaption": ""
@@ -68,8 +68,7 @@
               "RelativeToolTip": "BookStore.Application\\Services\\BooksService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T08:37:14.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T08:37:14.941Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "BookSotre.Core\\Abstractions\\IBooksRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T13:14:46.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T13:14:46.311Z"
             }
           ]
         }

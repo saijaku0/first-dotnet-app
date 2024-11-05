@@ -114,3 +114,4 @@ E:\FullStackProjects\BookStore\BookStore\BookStore.API\obj\Debug\net8.0\BookStor
 E:\FullStackProjects\BookStore\BookStore\BookStore.API\obj\Debug\net8.0\ref\BookStore.API.dll
 E:\FullStackProjects\BookStore\BookStore\BookStore.API\bin\Debug\net8.0\BookStore.Application.dll
 E:\FullStackProjects\BookStore\BookStore\BookStore.API\bin\Debug\net8.0\BookStore.Application.pdb
+E:\FullStackProjects\BookStore\BookStore\BookStore.API\obj\Debug\net8.0\BookStore.API.sourcelink.json
