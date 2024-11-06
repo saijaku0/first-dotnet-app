@@ -1,6 +1,6 @@
-export interface BookReques {
+export interface BookRequest {
   title: string;
-  decsription: string;
+  description: string;
   price: number;
 }
 
@@ -10,7 +10,7 @@ export const getAllBooks = async () => {
   return response.json();
 };
 
-export const createBook = async (bookRequest: BookReques) => {
+export const createBook = async (bookRequest: BookRequest) => {
   await fetch("http://localhost:5157/Books", {
     method: "POST",
     headers: {
@@ -20,7 +20,7 @@ export const createBook = async (bookRequest: BookReques) => {
   });
 };
 
-export const updateBook = async (id: string, bookRequest: BookReques) => {
+export const updateBook = async (id: string, bookRequest: BookRequest) => {
   await fetch(`http://localhost:5157/Books/${id}`, {
     method: "PUT",
     headers: {

@@ -1,12 +1,14 @@
 import Card from "antd/es/card/Card";
 import { CardTitle } from "./CardTitle";
-import { Button } from "antd";
+import Button from "antd/es/button/button";
 
 interface Props {
   books: Book[];
+  handleDelete: (id: string) => void;
+  handleOpen: (book: Book) => void;
 }
 
-export function Books({ books }: Props) {
+export function Books({ books, handleDelete, handleOpen }: Props) {
   return (
     <div className="cards">
       {books.map((book: Book) => (
@@ -17,8 +19,16 @@ export function Books({ books }: Props) {
         >
           <p>{book.description}</p>
           <div className="card-button">
-            <Button>Edit</Button>
-            <Button>Delete</Button>
+            <Button onClick={() => handleOpen(book)} style={{ flex: 1 }}>
+              Edit
+            </Button>
+            <Button
+              onClick={() => handleDelete(book.id)}
+              danger
+              style={{ flex: 1 }}
+            >
+              Delete
+            </Button>
           </div>
         </Card>
       ))}
